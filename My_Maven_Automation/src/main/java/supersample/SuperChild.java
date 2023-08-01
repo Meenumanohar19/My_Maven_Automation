@@ -1,10 +1,10 @@
 package supersample;
 
-public class SuperChild extends SuperParent{
+public class SuperChild extends SuperParent {
 public void display()
 {
 	System.out.println("Super Child Class");
-	System.out.println(super.a);
+	System.out.println(super.ch);
 	super.print();
 }
 	public static void main(String[] args) {
