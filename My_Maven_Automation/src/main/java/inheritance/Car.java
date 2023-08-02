@@ -1,5 +1,7 @@
 package inheritance;
 
+import accessmodifier.Class5;
+
 public class Car extends Vehicle{
 	
 	public void carPrice()
@@ -13,6 +15,8 @@ public class Car extends Vehicle{
 		Car obj1=new Car();
 		obj1.showPrice();
 		obj1.carPrice();
+		//Class5.show();
+		//System.out.println(Class5.print("Meenu"));
 
 	}
 
