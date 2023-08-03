@@ -12,7 +12,7 @@ public class ChildOne extends ParentOne {
 	public void display()
 	{
 		System.out.println(super.ch);
-		//super.print();
+		super.print();
 	}
 
 	public static void main(String[] args) {
