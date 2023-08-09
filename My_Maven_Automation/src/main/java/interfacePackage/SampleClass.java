@@ -18,11 +18,11 @@ public class SampleClass implements SampleInter{
 	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		//SampleClass obj=new SampleClass();
-		SampleInter obj2=new SampleClass(); // Interface do not have constructor.obj of interface--> interfacename objectname=new ClassName();
+		SampleClass obj=new SampleClass();
+		SampleInter obj2=new SampleClass(); // Interface do not have constructor. obj of interface--> interfacename objectname=new ClassName();
 		obj2.add();
 		obj2.display();
-		//obj2.print();
+		obj.print();
 		System.out.println(a);
 	}
 
