@@ -10,10 +10,15 @@ public class ExceptionHandling {
 		int b=a/0;
 		System.out.println(b);
 		}
-		catch(Exception e)
+	    catch(Exception e)
 		{
 			System.out.println(e);
 		}
+		finally    // finally block will execute even if exception is handled or not/ exception occurs or not
+		{
+			System.out.println("Finally block");
+		}
+		
 	}
 
 	public static void main(String[] args) {
